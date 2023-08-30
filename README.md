@@ -1,11 +1,11 @@
-# @sumdoo/require
+# @beck-zgh/require
 
-`@sumdoo/require` 为大型组件或项目入口提供 `CDN` 异步加载
+`@beck-zgh/require` 为大型组件或项目入口提供 `CDN` 异步加载
 
 ## 作为大型组件加载使用示例
 
 ```ts
-import { $require, $config } from '@sumdoo/require'
+import { $require, $config } from '@beck-zgh/require'
 
 $config({
     paths: {
@@ -31,7 +31,7 @@ export function initEcharts(el: any, option: any) {
 ## 作为项目入口加载使用示例
 
 ```ts
-import { $config, $define, $require } from '@sumdoo/require'
+import { $config, $define, $require } from '@beck-zgh/require'
 
 // IS_PROD 由 vite.config.html 注入
 const is_prod  = (window as any)["IS_PROD"] !== false
