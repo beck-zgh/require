@@ -1,0 +1,8 @@
+{
+    "name": "@beck-zgh/require",
+    "version": "1.0.0",
+    "description": "require.js 封装的异步加载库",
+    "license": "MIT",
+    "main": "./src/index.ts",
+    "module": "./src/index.ts"
+}
